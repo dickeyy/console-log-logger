@@ -1,8 +1,13 @@
 {
   "name": "console-log-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Log directly to the console.",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dickeyy/console-log-logger.git"
+  },
+  "homepage": "https://github.com/dickeyy/console-log-logger#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc"
