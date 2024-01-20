@@ -1,8 +1,6 @@
 "use strict";
-class ConsoleLogLogger {
-    log(data) {
-        console.log(data);
-    }
+Object.defineProperty(exports, "__esModule", { value: true });
+function log(stuff) {
+    console.log(stuff);
 }
-const logger = new ConsoleLogLogger();
-logger.log("Hello, console-log-logger!");
+exports.default = log;

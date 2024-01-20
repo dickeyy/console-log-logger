@@ -1,8 +1,5 @@
-class ConsoleLogLogger {
-  log(data: any): void {
-    console.log(data);
-  }
+function log(stuff: any) {
+  console.log(stuff);
 }
 
-const logger = new ConsoleLogLogger();
-logger.log("Hello, console-log-logger!");
+export default log;

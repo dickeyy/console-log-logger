@@ -13,15 +13,34 @@ bun add console-log-logger
 
 ## Usage
 
-```
-// Import the ConsoleLogLogger class
-import { ConsoleLogLogger } from 'console-log-logger';
-
-// Create an instance of ConsoleLogLogger
-const logger = new ConsoleLogLogger();
+```js
+// Import the log function
+import log from "console-log-logger";
 
 // Log a message
-logger.log("Hello, console-log-logger!");
+log("Hello, console-log-logger!");
 
 // Outputs: Hello, console-log-logger!
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+The MIT License is a permissive open-source license that allows for a broad range of use. Feel free to use, modify, and distribute this code in your projects.
+
+## Contributing
+
+Contributions are welcome! Here are a few guidelines to follow:
+
+1. Fork the repository and clone it locally.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and ensure tests pass.
+4. Commit your changes and push to your fork.
+5. Submit a pull request, clearly describing the changes and their purpose.
+
+## Changelog
+
+Read the changelog [HERE](./changelog.md)
+
+_This package is satire, all it does is wrap `console.log`, please don't actually use this in production_
